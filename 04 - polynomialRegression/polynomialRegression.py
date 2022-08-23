@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 #importing the dataset
-dataset = pd.read_csv('C:/Users/LeonardoKruss/Documents/Code/machine_learning_python/04 - polynomialRegression/Position_Salaries.csv')
+dataset = pd.read_csv('C:/Users/LeonardoKruss/Documents/Code/Machine_Learning_Python/04 - polynomialRegression/Position_Salaries.csv')
 x = dataset.iloc[:, 1:-1].values
 y = dataset.iloc[:, -1].values
 
